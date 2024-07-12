@@ -1,5 +1,4 @@
 [
-	//Civilian 
 	{
 		"name": "Worker",
 		"unitType": "Civilian",
@@ -63,7 +62,6 @@
 		],
 		"movement": 2
 	},
-	//Pre-Renaissance era(Included due to Unit Upgrade Tree)
 	{
 		"name": "Scout",
 		"unitType": "Scout",
@@ -198,7 +196,6 @@
 			"Great Generals II"
 		],
 		"attackSound": "metalhit"
-		//Samurai should also create Fishing Boats (not now, surely)
 	},
 	{
 		"name": "Berserker",
@@ -217,7 +214,6 @@
 		],
 		"hurryCostModifier": 20,
 		"attackSound": "metalhit"
-		//Danish unique unit. Can attack from the sea without any penalty, and moves faster.
 	},
 	{
 		"name": "Crossbowman",
@@ -387,7 +383,6 @@
 		],
 		"attackSound": "arrow"
 	},
-	//Renaissance era
 	{
 		"name": "Caravel",
 		"unitType": "Melee Water",
@@ -711,7 +706,6 @@
 		],
 		"attackSound": "cannon"
 	},
-	//Industrial era
 	{
 		"name": "Rifleman",
 		"unitType": "Melee Infantry",
@@ -967,7 +961,6 @@
 		],
 		"attackSound": "torpedo"
 	},
-	//Modern era
 	{
 		"name": "Great War Infantry",
 		"unitType": "Melee Infantry",
@@ -1195,7 +1188,6 @@
 		],
 		"attackSound": "machinegun"
 	},
-	//Atomic era
 	{
 		"name": "Fighter",
 		"unitType": "Air Fighter",
@@ -1465,7 +1457,6 @@
 		],
 		"attackSound": "machinegun"
 	},
-	//Information era
 	{
 		"name": "Mobile SAM",
 		"unitType": "Melee Armor",
@@ -1631,7 +1622,6 @@
 		],
 		"attackSound": "bombing"
 	},
-	//Future era
 	{
 		"name": "Enhanced Infantry",
 		"unitType": "Melee Infantry",
@@ -1847,7 +1837,6 @@
 		],
 		"attackSound": "nuke"
 	},
-	//Unique
 	{
 		"name": "SS Booster",
 		"unitType": "Civilian",

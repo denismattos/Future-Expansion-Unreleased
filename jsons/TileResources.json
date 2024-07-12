@@ -1,5 +1,4 @@
 [
-	//Bonus
 	{
 		"name": "Natural Appeal",
 		"resourceType": "Bonus",
@@ -22,7 +21,6 @@
 			"Generated on every [30] tiles <in [Featureless] [Desert] tiles>"
 		]
 	},
-	//Strategic
 	{
 		"name": "Coal",
 		"resourceType": "Strategic",
@@ -178,7 +176,6 @@
 			"abundant": 3
 		}
 	},
-	//Luxury
 	{
 		"name": "Fossil",
 		"resourceType": "Luxury",
@@ -198,7 +195,6 @@
 			"Generated with weight [36] <in [Hill] tiles>"
 		]
 	},
-	// Manufactured resources
 	{
 		"name": "Power",
 		"resourceType": "Strategic",

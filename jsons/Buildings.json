@@ -1,5 +1,4 @@
 [
-	// Always available (Kept because the Palace stores Policy Upgrades)
 	{
 		"name": "Palace",
 		"isNationalWonder": true,
@@ -25,7 +24,6 @@
 			"Cannot be purchased"
 		]
 	},
-	// Renaissance Era
 	{
 		"name": "Sewer",
 		"cost": 230,
@@ -240,7 +238,6 @@
 			"Destroyed when the city is captured"
 		]
 	},
-	// Industrial Era
 	{
 		"name": "Factory",
 		"cost": 650,
@@ -431,7 +428,6 @@
 			"[+1 Food, +2 Science] from [Citadel] tiles [in this city]"
 		]
 	},
-	// Modern Era
 	{
 		"name": "Broadcast Tower",
 		"cost": 728,
@@ -561,7 +557,6 @@
 			"[-2 Food] from [Wind Farm] tiles [in this city]"
 		]
 	},
-	// Atomic Era
 	{
 		"name": "Branch Office",
 		"cost": 700,
@@ -704,7 +699,6 @@
 			"Destroyed when the city is captured"
 		]
 	},
-	// Information Era
 	{
 		"name": "Medical Lab",
 		"cost": 650,
@@ -813,7 +807,6 @@
 			"[+7 Production, +7 Gold, +7 Science, +7 Culture, +7 Faith] [in this city]"
 		]
 	},
-	// Future Era
 	{
 		"name": "Nano-Foundry",
 		"cost": 2000,
@@ -884,7 +877,6 @@
 			"[+100]% Production when constructing [Utopia Project] wonders [in this city]"
 		]
 	},
-	// World Wonder
 	{
 		"name": "Great Wall",
 		"culture": 3,
@@ -1385,7 +1377,6 @@
 			"Cannot be hurried"
 		]
 	},
-	// National Wonder
 	{
 		"name": "National Hall",
 		"cost": 340,
@@ -1472,7 +1463,6 @@
 			"Hidden when [Scientific] Victory is disabled"
 		]
 	},
-	// Projects (Most of these Uniques are not functional and only there to inform, they are stored in the Improvements instead)
 	{
 		"name": "Fertilizer Breakthrough I",
 		"cost": 260,

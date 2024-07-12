@@ -1,5 +1,4 @@
 [
-	//Basic Improvements
 	{
 		"name": "Farm",
 		"terrainsCanBeBuiltOn": [
@@ -58,7 +57,7 @@
 		"shortcutKey": "M"
 	},
 	{
-		"name": "Trading post",
+		"name": "Trading Post",
 		"terrainsCanBeBuiltOn": [
 			"Plains",
 			"Grassland",
@@ -185,9 +184,8 @@
 			"Pillaging this improvement yields approximately [+20 Gold]"
 		]
 	},
-	//Resource Exclusive
 	{
-		"name": "Lumber mill",
+		"name": "Lumber Mill",
 		"terrainsCanBeBuiltOn": [
 			"Forest",
 			"Jungle"
@@ -290,7 +288,7 @@
 		"shortcutKey": "F"
 	},
 	{
-		"name": "Oil well",
+		"name": "Oil Well",
 		"turnsToBuild": 9,
 		"techRequired": "Refining",
 		"uniques": [
@@ -323,7 +321,7 @@
 		"shortcutKey": "E"
 	},
 	{
-		"name": "Supply route",
+		"name": "Supply Route",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
@@ -362,7 +360,6 @@
 		],
 		"shortcutKey": "P"
 	},
-	//Infraestructure
 	{
 		"name": "Urban District",
 		"terrainsCanBeBuiltOn": [
@@ -479,7 +476,6 @@
 			"Cannot be built on [Land] tiles <within [3] tiles of a [Commercial Center]>"
 		]
 	},
-	//Enhancer
 	{
 		"name": "Water Plant",
 		"terrainsCanBeBuiltOn": [
@@ -630,7 +626,6 @@
 			"Cannot be built on [Land] tiles <within [2] tiles of a [Media Center]>"
 		]
 	},
-	//Great Improvements
 	{
 		"name": "Academy",
 		"terrainsCanBeBuiltOn": [
@@ -673,7 +668,7 @@
 		]
 	},
 	{
-		"name": "Customs house",
+		"name": "Customs House",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
@@ -695,7 +690,7 @@
 		]
 	},
 	{
-		"name": "Holy site",
+		"name": "Holy Site",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
@@ -707,7 +702,7 @@
 		]
 	},
 	{
-		"name": "Launch site",
+		"name": "Launch Site",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
@@ -734,7 +729,6 @@
 			"Removes removable features when built"
 		]
 	},
-	//Unique
 	{
 		"name": "Railroad",
 		"terrainsCanBeBuiltOn": [
@@ -749,7 +743,7 @@
 		"shortcutKey": "R"
 	},
 	{
-		"name": "City center",
+		"name": "City Center",
 		"terrainsCanBeBuiltOn": [
 			"Land"
 		],
