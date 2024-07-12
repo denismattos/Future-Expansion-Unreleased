@@ -1,10 +1,32 @@
 {
-    "isBaseRuleset": false,
-	"unitsToRemove": ["Marine"]
-	"techsToRemove": ["Acoustics","Architecture","Archaeology","Pharmaceuticals","Ecology","Nuclear Fusion","Mobile Tactics","Banking","Metallurgy","Dynamite","Ballistics","Chemistry","Nuclear Fission","Advanced Ballistics"]
-	"buildingsToRemove": ["Hermitage","Solar Plant"]
-	"constants":{"cityStrengthBase":2,
-	"cityStrengthPerPop":0.2,
-	"cityStrengthFromTechsMultiplier":0.3,
-	"cityStrengthFromGarrison":1}
+	"isBaseRuleset": false,
+	"unitsToRemove": [
+		"Marine"
+	],
+	"techsToRemove": [
+		"Acoustics",
+		"Architecture",
+		"Archaeology",
+		"Pharmaceuticals",
+		"Ecology",
+		"Nuclear Fusion",
+		"Mobile Tactics",
+		"Banking",
+		"Metallurgy",
+		"Dynamite",
+		"Ballistics",
+		"Chemistry",
+		"Nuclear Fission",
+		"Advanced Ballistics"
+	],
+	"buildingsToRemove": [
+		"Hermitage",
+		"Solar Plant"
+	],
+	"constants": {
+		"cityStrengthBase": 2,
+		"cityStrengthPerPop": 0.2,
+		"cityStrengthFromTechsMultiplier": 0.3,
+		"cityStrengthFromGarrison": 1
+	}
 }

@@ -1,80 +1,109 @@
 [
     {
         "name": "Civilian",
-		"uniques": ["[-1] Sight"]
+        "uniques": [
+            "[-1] Sight"
+        ],
         "movementType": "Land"
     },
     {
         "name": "Melee Infantry",
-		"uniques": [""]
+        "uniques": [
+            ""
+        ],
         "movementType": "Land"
     },
     {
         "name": "Ranged Infantry",
-		"uniques": [""]
+        "uniques": [
+            ""
+        ],
         "movementType": "Land"
     },
     {
         "name": "Recon Infantry",
-		"uniques": [""]
+        "uniques": [
+            ""
+        ],
         "movementType": "Land"
     },
     {
         "name": "Melee Armor",
-		"uniques": [""]
+        "uniques": [
+            ""
+        ],
         "movementType": "Land"
     },
     {
         "name": "Ranged Armor",
-		"uniques": [""]
+        "uniques": [
+            ""
+        ],
         "movementType": "Land"
     },
-	{
+    {
         "name": "Recon Armor",
-		"uniques": [""]
+        "uniques": [
+            ""
+        ],
         "movementType": "Land"
     },
-	{
+    {
         "name": "Civilian Water",
-		"uniques": ["[-1] Sight"]
+        "uniques": [
+            "[-1] Sight"
+        ],
         "movementType": "Water"
     },
-	{
+    {
         "name": "Melee Water",
-		"uniques": [""]
+        "uniques": [
+            ""
+        ],
         "movementType": "Water"
     },
     {
         "name": "Ranged Water",
-		"uniques": [""]
+        "uniques": [
+            ""
+        ],
         "movementType": "Water"
     },
     {
         "name": "Recon Water",
-		"uniques": [""]
+        "uniques": [
+            ""
+        ],
         "movementType": "Water"
     },
-	{
+    {
         "name": "Land Support",
         "movementType": "Land"
     },
-	{
+    {
         "name": "Water Support",
         "movementType": "Water"
     },
     {
         "name": "Air Fighter",
-		"uniques": ["Aircraft","Can perform Air Sweep"]
+        "uniques": [
+            "Aircraft",
+            "Can perform Air Sweep"
+        ],
         "movementType": "Air"
     },
     {
         "name": "Air Bomber",
-		"uniques": ["Aircraft"]
+        "uniques": [
+            "Aircraft"
+        ],
         "movementType": "Air"
     },
     {
         "name": "Missile",
         "movementType": "Air",
-        "uniques": ["Self-destructs when attacking"]
-    },
+        "uniques": [
+            "Self-destructs when attacking"
+        ]
+    }
 ]

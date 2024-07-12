@@ -10,20 +10,19 @@
             "Scientific": 60
         },
         "uniques": [
-             "[+100]% Production when constructing [Science] buildings [in all cities]",
-			 "[Gold] cost of purchasing [Science] buildings [-50]%",
-			 "[-1 Happiness] from every [Library]",
-			 "[-1 Happiness] from every [University]",
-			 "[-1 Happiness] from every [Public School]",
-			 "[-1 Happiness] from every [Research Lab]",
-			 
+            "[+100]% Production when constructing [Science] buildings [in all cities]",
+            "[Gold] cost of purchasing [Science] buildings [-50]%",
+            "[-1 Happiness] from every [Library]",
+            "[-1 Happiness] from every [University]",
+            "[-1 Happiness] from every [Public School]",
+            "[-1 Happiness] from every [Research Lab]"
         ],
         "policies": [
             {
                 "name": "Secularism",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
-					"[Trading post] are affected by [Institute] as if they were a Infraestructure Improvement"
+                    "[Trading post] are affected by [Institute] as if they were a Infraestructure Improvement"
                 ],
                 "row": 1,
                 "column": 2
@@ -42,30 +41,40 @@
                 "uniques": [
                     "[+5 Science, -1 Happiness] from every [Library]",
                     "[+5 Science, -1 Happiness] from every [University]",
-					"[+5 Science, -1 Happiness] from every [Research Lab]",
+                    "[+5 Science, -1 Happiness] from every [Research Lab]"
                 ],
-                "requires": ["Secularism"],
+                "requires": [
+                    "Secularism"
+                ],
                 "row": 2,
                 "column": 2
             },
             {
                 "name": "Sovereignty",
-                "uniques": ["[-1 Happiness, +6 Science, +6 Science] [in all cities] <during the [Renaissance era]>",
-				"[-2 Happiness, +5 Science, +5 Science] [in all cities] <during the [Industrial era]>",
-				"[-3 Happiness, +4 Science, +4 Science] [in all cities] <during the [Modern era]>",
-				"[-4 Happiness, +3 Science, +3 Science] [in all cities] <during the [Atomic era]>",
-				"[-5 Happiness, +2 Science, +2 Science] [in all cities] <during the [Information era]>",
-				"[-6 Happiness, +1 Science, +1 Science] [in all cities] <during the [Future era]>"],
-                "requires": ["Humanism"],
+                "uniques": [
+                    "[-1 Happiness, +6 Science, +6 Science] [in all cities] <during the [Renaissance era]>",
+                    "[-2 Happiness, +5 Science, +5 Science] [in all cities] <during the [Industrial era]>",
+                    "[-3 Happiness, +4 Science, +4 Science] [in all cities] <during the [Modern era]>",
+                    "[-4 Happiness, +3 Science, +3 Science] [in all cities] <during the [Atomic era]>",
+                    "[-5 Happiness, +2 Science, +2 Science] [in all cities] <during the [Information era]>",
+                    "[-6 Happiness, +1 Science, +1 Science] [in all cities] <during the [Future era]>"
+                ],
+                "requires": [
+                    "Humanism"
+                ],
                 "row": 2,
                 "column": 4
             },
             {
                 "name": "Scientific Revolution",
-                "uniques": ["Free [Great Scientist] appears",
-				"[Great Scientist] is earned [50]% faster",
-				"[Great Engineer] is earned [50]% faster"],
-                "requires": ["Free Thought"],
+                "uniques": [
+                    "Free [Great Scientist] appears",
+                    "[Great Scientist] is earned [50]% faster",
+                    "[Great Engineer] is earned [50]% faster"
+                ],
+                "requires": [
+                    "Free Thought"
+                ],
                 "row": 3,
                 "column": 2
             },
@@ -73,7 +82,7 @@
                 "name": "Rationalism Complete",
                 "uniques": [
                     "[1] Free Technologies",
-					"Science gained from research agreements [+50]%",
+                    "Science gained from research agreements [+50]%"
                 ]
             }
         ]
@@ -96,13 +105,19 @@
         "policies": [
             {
                 "name": "Constitution",
-                "uniques": ["[+2 Culture] from every [National Wonder]"],
+                "uniques": [
+                    "[+2 Culture] from every [National Wonder]"
+                ],
                 "row": 1,
                 "column": 1
             },
             {
                 "name": "Universal Suffrage",
-                "uniques": ["Empire enters golden age","[+1 Happiness] [in all cities]","[+50]% Golden Age length"],
+                "uniques": [
+                    "Empire enters golden age",
+                    "[+1 Happiness] [in all cities]",
+                    "[+50]% Golden Age length"
+                ],
                 "row": 1,
                 "column": 3
             },
@@ -110,20 +125,24 @@
                 "name": "Civil Society",
                 "uniques": [
                     "[+2 Food] from every [Water Plant]",
-					"[+2 Gold] from every [Warehouse]",
-					"[+2 Science] from every [Institute]",
-					"[+2 Culture] from every [Stage]",
-					"[+2 Faith] from every [Park]",
-					"[+2 Happiness] from every [Media Center]",
+                    "[+2 Gold] from every [Warehouse]",
+                    "[+2 Science] from every [Institute]",
+                    "[+2 Culture] from every [Stage]",
+                    "[+2 Faith] from every [Park]",
+                    "[+2 Happiness] from every [Media Center]"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
                 "name": "Free Speech",
-                "uniques": ["[6] units cost no maintenance",
-				"[6] free [Great War Infantry] units appear"],
-                "requires": ["Constitution"],
+                "uniques": [
+                    "[6] units cost no maintenance",
+                    "[6] free [Great War Infantry] units appear"
+                ],
+                "requires": [
+                    "Constitution"
+                ],
                 "row": 2,
                 "column": 1
             },
@@ -131,9 +150,11 @@
                 "name": "Democracy",
                 "uniques": [
                     "[+25]% Great Person generation [in all cities]",
-					"[-50]% Unhappiness from [Specialists] [in all cities]"
+                    "[-50]% Unhappiness from [Specialists] [in all cities]"
                 ],
-                "requires": ["Civil Society"],
+                "requires": [
+                    "Civil Society"
+                ],
                 "row": 2,
                 "column": 5
             },
@@ -141,12 +162,12 @@
                 "name": "Freedom Complete",
                 "uniques": [
                     "[+4 Science] from every [Academy]",
-					"[+4 Culture] from every [Landmark]",
-					"[+4 Production] from every [Manufactory]",
-					"[+4 Gold] from every [Customs house]",
-					"[+4 Faith] from every [Holy site]",
-					"[+4 Science, +4 Culture] from every [Launch site]",
-					"[+4 Happiness] from every [Citadel]",
+                    "[+4 Culture] from every [Landmark]",
+                    "[+4 Production] from every [Manufactory]",
+                    "[+4 Gold] from every [Customs house]",
+                    "[+4 Faith] from every [Holy site]",
+                    "[+4 Science, +4 Culture] from every [Launch site]",
+                    "[+4 Happiness] from every [Citadel]"
                 ]
             }
         ]
@@ -169,18 +190,22 @@
         "policies": [
             {
                 "name": "Populism",
-                "uniques": ["[+25]% Strength <for [Military] units>",
-				"[+25]% Strength <for [Military] units> <when below [51] HP>"],
+                "uniques": [
+                    "[+25]% Strength <for [Military] units>",
+                    "[+25]% Strength <for [Military] units> <when below [51] HP>"
+                ],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Militarism",
-                "uniques": ["[+15]% [Gold] <when at war>",
-				"[+15]% [Production] <when at war>",
-				"[+15]% [Culture] <when at war>",
-				"[+15]% [Science] <when at war>",
-				"[+15]% [Faith] <when at war>"],
+                "uniques": [
+                    "[+15]% [Gold] <when at war>",
+                    "[+15]% [Production] <when at war>",
+                    "[+15]% [Culture] <when at war>",
+                    "[+15]% [Science] <when at war>",
+                    "[+15]% [Faith] <when at war>"
+                ],
                 "row": 1,
                 "column": 4
             },
@@ -190,7 +215,10 @@
                     "Quantity of strategic resources produced by the empire +[50]%",
                     "[Great General] Range increased by 1"
                 ],
-                "requires": ["Populism", "Militarism"],
+                "requires": [
+                    "Populism",
+                    "Militarism"
+                ],
                 "row": 2,
                 "column": 2
             },
@@ -198,11 +226,13 @@
                 "name": "Police State",
                 "uniques": [
                     "[+1 Happiness, +2 Faith] from every [Defensive Building]",
-					"[+1 Happiness, +2 Faith] from every [Military Building]",
+                    "[+1 Happiness, +2 Faith] from every [Military Building]",
                     "[+1 Happiness, +2 Faith] from every [Fort]",
-					"[+1 Happiness, +2 Faith] from every [Citadel]",
+                    "[+1 Happiness, +2 Faith] from every [Citadel]"
                 ],
-                "requires": ["Militarism"],
+                "requires": [
+                    "Militarism"
+                ],
                 "row": 2,
                 "column": 4
             },
@@ -211,9 +241,12 @@
                 "uniques": [
                     "[+33]% Production when constructing [Military] units [in all cities]",
                     "[Gold] cost of purchasing [Military] units [-33]%",
-					"[Faith] cost of purchasing [Military] units [-33]%"
+                    "[Faith] cost of purchasing [Military] units [-33]%"
                 ],
-                "requires": ["Police State", "Fascism"],
+                "requires": [
+                    "Police State",
+                    "Fascism"
+                ],
                 "row": 3,
                 "column": 3
             },
@@ -221,7 +254,7 @@
                 "name": "Autocracy Complete",
                 "uniques": [
                     "[+25]% Strength <when attacking> <for [Military] units> <for [50] turns>",
-                    "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately",
+                    "Upon capturing a city, receive [10] times its [Culture] production as [Culture] immediately"
                 ]
             }
         ]
@@ -245,11 +278,11 @@
             {
                 "name": "United Front",
                 "uniques": [
-                     "[+100]% Production when constructing [Infantry] units [in all cities]",
-					 "[+50]% Production when constructing [Armor] units [in all cities]",
-					 "[+25]% Production when constructing [Air] units [in all cities]",
-					 "[+12]% Production when constructing [Water] units [in all cities]",
-					 "[Gold] cost of purchasing [Military] units [+25]%"
+                    "[+100]% Production when constructing [Infantry] units [in all cities]",
+                    "[+50]% Production when constructing [Armor] units [in all cities]",
+                    "[+25]% Production when constructing [Air] units [in all cities]",
+                    "[+12]% Production when constructing [Water] units [in all cities]",
+                    "[Gold] cost of purchasing [Military] units [+25]%"
                 ],
                 "row": 1,
                 "column": 1
@@ -258,7 +291,7 @@
                 "name": "Planned Economy",
                 "uniques": [
                     "Gain a free [Leadership Hall] [in all cities]",
-					"This building increases Gold, Production and Science in Capital by 15%, stacking"
+                    "This building increases Gold, Production and Science in Capital by 15%, stacking"
                 ],
                 "row": 1,
                 "column": 3
@@ -267,26 +300,30 @@
                 "name": "Nationalism",
                 "uniques": [
                     "[-25]% tile improvement construction time",
-					"[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
+                    "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
                 "row": 1,
                 "column": 5
             },
             {
                 "name": "Socialism",
-                "requires": ["Planned Economy"],
+                "requires": [
+                    "Planned Economy"
+                ],
                 "uniques": [
-                     "[+2 Happiness] [in all cities]",
-					 "[+2 Happiness] [in annexed cities]",
+                    "[+2 Happiness] [in all cities]",
+                    "[+2 Happiness] [in annexed cities]"
                 ],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Communism",
-                "requires": ["Socialism"],
+                "requires": [
+                    "Socialism"
+                ],
                 "uniques": [
-					"[-33]% maintenance cost for buildings [in all cities]"
+                    "[-33]% maintenance cost for buildings [in all cities]"
                 ],
                 "row": 3,
                 "column": 3
@@ -295,13 +332,13 @@
                 "name": "Order Complete",
                 "uniques": [
                     "[+100]% Yield from every [Urban District]",
-					"[+100]% Yield from every [Industrial Zone]",
-					"[+100]% Yield from every [Commercial Center]",
+                    "[+100]% Yield from every [Industrial Zone]",
+                    "[+100]% Yield from every [Commercial Center]"
                 ]
             }
         ]
     },
-	{
+    {
         "name": "Technocracy",
         "era": "Atomic era",
         "priorities": {
@@ -313,25 +350,29 @@
         },
         "uniques": [
             "[-25]% [Food] [in all cities]",
-			"[+25]% [Production] [in all cities]",
-			"[+2 Production] from every [Library]",
-			"[+2 Production] from every [University]",
-			"[+2 Production] from every [Public School]",
-			"[+2 Production] from every [Research Lab]",
+            "[+25]% [Production] [in all cities]",
+            "[+2 Production] from every [Library]",
+            "[+2 Production] from every [University]",
+            "[+2 Production] from every [Public School]",
+            "[+2 Production] from every [Research Lab]",
             "Only available <before adopting [Purity]>",
             "Only available <before adopting [Transhumanism]>"
         ],
         "policies": [
             {
                 "name": "R&D Division",
-                "uniques": ["[+50]% Production when constructing [Project] wonders [in all cities]",
-				"[+1 Science] from every [National Wonder]"],
+                "uniques": [
+                    "[+50]% Production when constructing [Project] wonders [in all cities]",
+                    "[+1 Science] from every [National Wonder]"
+                ],
                 "row": 1,
                 "column": 2
             },
             {
                 "name": "Battlefield Experiments",
-                "uniques": ["Earn [100]% of killed [Military] unit's [Cost] as [Science]"],
+                "uniques": [
+                    "Earn [100]% of killed [Military] unit's [Cost] as [Science]"
+                ],
                 "row": 1,
                 "column": 4
             },
@@ -339,20 +380,27 @@
                 "name": "Cybernetics",
                 "uniques": [
                     "[Institute] grants Production alongside [Science]",
-					"Enables [Worker Bot]",
-					"Enables [Battle Bot]",
-					"Enables [Cybermech Implant]"
+                    "Enables [Worker Bot]",
+                    "Enables [Battle Bot]",
+                    "Enables [Cybermech Implant]"
                 ],
-				"requires": ["R&D Division","Battlefield Experiments"],
+                "requires": [
+                    "R&D Division",
+                    "Battlefield Experiments"
+                ],
                 "row": 2,
                 "column": 3
             },
             {
                 "name": "Collectivization",
-                "uniques": ["[Power Building] generate no unhappiness",
-				"[+100]% Production when constructing [Power Building] buildings [in all cities]",
-			    "[Gold] cost of purchasing [Power Building] buildings [-50]%"],
-                "requires": ["Cybernetics"],
+                "uniques": [
+                    "[Power Building] generate no unhappiness",
+                    "[+100]% Production when constructing [Power Building] buildings [in all cities]",
+                    "[Gold] cost of purchasing [Power Building] buildings [-50]%"
+                ],
+                "requires": [
+                    "Cybernetics"
+                ],
                 "row": 3,
                 "column": 2
             },
@@ -360,13 +408,15 @@
                 "name": "Leap Forward",
                 "uniques": [
                     "[+2 Science] from every [Great Improvement]",
-					"[+2 Science] from every [Great Improvement] <with [Medicine]>",
-					"[+2 Science] from every [Great Improvement] <with [Weapons]>",
-					"[+2 Science] from every [Great Improvement] <with [Vehicles]>",
-					"[+2 Science] from every [Great Improvement] <with [Publication]>",
-					"[+2 Science] from every [Great Improvement] <with [Electronics]>",
+                    "[+2 Science] from every [Great Improvement] <with [Medicine]>",
+                    "[+2 Science] from every [Great Improvement] <with [Weapons]>",
+                    "[+2 Science] from every [Great Improvement] <with [Vehicles]>",
+                    "[+2 Science] from every [Great Improvement] <with [Publication]>",
+                    "[+2 Science] from every [Great Improvement] <with [Electronics]>"
                 ],
-                "requires": ["Cybernetics"],
+                "requires": [
+                    "Cybernetics"
+                ],
                 "row": 3,
                 "column": 4
             },
@@ -374,8 +424,8 @@
                 "name": "Technocracy Complete",
                 "uniques": [
                     "Free [Giant Death Robot] appears",
-					"[+100]% Production when constructing [Giant Death Robot] units [in all cities]",
-					"[+100]% Production when constructing [Spaceship part] units [in this city]",
+                    "[+100]% Production when constructing [Giant Death Robot] units [in all cities]",
+                    "[+100]% Production when constructing [Spaceship part] units [in this city]"
                 ]
             }
         ]
@@ -392,23 +442,27 @@
         },
         "uniques": [
             "Free Great Person",
-			"[+25]% Great Person generation [in all cities]",
+            "[+25]% Great Person generation [in all cities]",
             "Only available <before adopting [Technocracy]>",
             "Only available <before adopting [Transhumanism]>"
         ],
         "policies": [
             {
                 "name": "Determination",
-                "uniques": ["[+50]% City Strength from defensive buildings",
-				"[+2 Happiness] from every [Defensive Building]"],
+                "uniques": [
+                    "[+50]% City Strength from defensive buildings",
+                    "[+2 Happiness] from every [Defensive Building]"
+                ],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Joint Projects",
-                "uniques": ["[+50]% Yield from every [Supply route]",
-				"[+50]% Yield from every [Industry]",
-				"These buildings provide a Set amount of their worked Resource"],
+                "uniques": [
+                    "[+50]% Yield from every [Supply route]",
+                    "[+50]% Yield from every [Industry]",
+                    "These buildings provide a Set amount of their worked Resource"
+                ],
                 "row": 1,
                 "column": 1
             },
@@ -418,7 +472,10 @@
                     "Quantity of strategic resources produced by the empire +[100]%",
                     "[Great General] Range increased by 1"
                 ],
-                "requires": ["Determination","Joint Projects"],
+                "requires": [
+                    "Determination",
+                    "Joint Projects"
+                ],
                 "row": 2,
                 "column": 5
             },
@@ -426,11 +483,13 @@
                 "name": "Discovery",
                 "uniques": [
                     "[Media Center] grants Production alongside [Happiness]",
-					"Enables [Hovertank]",
-					"Enables [Hovertillery]",
-					"Double quantity of [Composites] produced"
+                    "Enables [Hovertank]",
+                    "Enables [Hovertillery]",
+                    "Double quantity of [Composites] produced"
                 ],
-                "requires": ["Nanotransports"],
+                "requires": [
+                    "Nanotransports"
+                ],
                 "row": 3,
                 "column": 3
             },
@@ -438,11 +497,13 @@
                 "name": "Revolutionism",
                 "uniques": [
                     "[+4 Culture] from every [Urban District]",
-					"[+4 Culture] from every [Industrial Zone]",
-					"[+4 Culture] from every [Commercial Center]",
+                    "[+4 Culture] from every [Industrial Zone]",
+                    "[+4 Culture] from every [Commercial Center]",
                     "[-5]% Culture cost of adopting new Policies"
                 ],
-                "requires": ["Nanotransports"],
+                "requires": [
+                    "Nanotransports"
+                ],
                 "row": 3,
                 "column": 1
             },
@@ -451,7 +512,7 @@
                 "uniques": [
                     "[+100]% Production when constructing [Enhanced Infantry] units [in all cities]",
                     "May buy [Spaceship part] units with [Gold] [in all cities]"
-					]
+                ]
             }
         ]
     },
@@ -467,11 +528,11 @@
         },
         "uniques": [
             "[+2 Happiness] from all [Food] buildings <during the [Atomic era]>",
-			"[+2 Faith] from all [Hospital] buildings <during the [Atomic era]>",
-			"[+4 Happiness] from all [Food] buildings <during the [Information era]>",
-			"[+4 Faith] from all [Hospital] buildings <during the [Information era]>",
-			"[+6 Happiness] from all [Food] buildings <during the [Future era]>",
-			"[+6 Faith] from all [Hospital] buildings <during the [Future era]>",
+            "[+2 Faith] from all [Hospital] buildings <during the [Atomic era]>",
+            "[+4 Happiness] from all [Food] buildings <during the [Information era]>",
+            "[+4 Faith] from all [Hospital] buildings <during the [Information era]>",
+            "[+6 Happiness] from all [Food] buildings <during the [Future era]>",
+            "[+6 Faith] from all [Hospital] buildings <during the [Future era]>",
             "Only available <before adopting [Technocracy]>",
             "Only available <before adopting [Purity]>"
         ],
@@ -479,8 +540,8 @@
             {
                 "name": "Cell Cloning",
                 "uniques": [
-                     "[+10]% [Food] [in all cities]",
-					 "[+25] HP when healing <for [Military] units>"
+                    "[+10]% [Food] [in all cities]",
+                    "[+25] HP when healing <for [Military] units>"
                 ],
                 "row": 1,
                 "column": 5
@@ -489,37 +550,44 @@
                 "name": "Naturalism",
                 "uniques": [
                     "[+2 Food, +5 Faith] <in [Natural Wonder] tiles>",
-					"[+2 Food, +3 Faith] from every [Park]",
-                ], 
+                    "[+2 Food, +3 Faith] from every [Park]"
+                ],
                 "row": 1,
                 "column": 3
             },
             {
                 "name": "Designed Lifeforms",
-				"requires": ["Naturalism","Cell Cloning"],
+                "requires": [
+                    "Naturalism",
+                    "Cell Cloning"
+                ],
                 "uniques": [
-				    "[Park] grants Production alongside [Faith]",
-					"Enables [Predator]",
-					"Enables [Seeker]",                
-					],
+                    "[Park] grants Production alongside [Faith]",
+                    "Enables [Predator]",
+                    "Enables [Seeker]"
+                ],
                 "row": 2,
                 "column": 1
             },
             {
                 "name": "Global Mind",
-                "requires": ["Designed Lifeforms"],
+                "requires": [
+                    "Designed Lifeforms"
+                ],
                 "uniques": [
-                      "[+1 Happiness, +2 Faith] per [1] social policies adopted",
+                    "[+1 Happiness, +2 Faith] per [1] social policies adopted"
                 ],
                 "row": 3,
                 "column": 5
             },
             {
                 "name": "Life Upgrade",
-                "requires": ["Designed Lifeforms"],
+                "requires": [
+                    "Designed Lifeforms"
+                ],
                 "uniques": [
-				    "[100]% of excess happiness converted to [Faith]"
-					"[Faith] cost of purchasing items in cities [-15]%"
+                    "[100]% of excess happiness converted to [Faith]",
+                    "[Faith] cost of purchasing items in cities [-15]%"
                 ],
                 "row": 3,
                 "column": 3

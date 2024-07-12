@@ -2,6 +2,8 @@
     {
         "name": "Religious Art",
         "type": "Follower",
-        "uniques": ["[+8 Culture] from every [National Hall]"]
-    },
+        "uniques": [
+            "[+8 Culture] from every [National Hall]"
+        ]
+    }
 ]

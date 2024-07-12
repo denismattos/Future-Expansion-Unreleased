@@ -1,36 +1,50 @@
 [
-   {
+	{
 		"columnNumber": 7,
 		"era": "Renaissance era",
 		"techCost": 780,
 		"techs": [
-		    {
+			{
 				"name": "Infraestructure",
 				"row": 2,
-				"prerequisites": ["Compass","Education"],
+				"prerequisites": [
+					"Compass",
+					"Education"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Printing Press",
 				"row": 4,
-				"prerequisites": ["Education","Machinery"],
+				"prerequisites": [
+					"Education",
+					"Machinery"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Astronomy",
 				"row": 6,
-				"uniques": ["[+1] Movement <for [Embarked] units>",
-				"Enables [Embarked] units to enter ocean tiles"],
-				"prerequisites": ["Compass","Chivalry"],
+				"uniques": [
+					"[+1] Movement <for [Embarked] units>",
+					"Enables [Embarked] units to enter ocean tiles"
+				],
+				"prerequisites": [
+					"Compass",
+					"Chivalry"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Gunpowder",
 				"row": 9,
-				"prerequisites": ["Physics","Steel","Machinery"],
+				"prerequisites": [
+					"Physics",
+					"Steel",
+					"Machinery"
+				],
 				"quote": ""
-			},
-			
+			}
 		]
 	},
 	{
@@ -38,46 +52,68 @@
 		"era": "Renaissance era",
 		"techCost": 1150,
 		"techs": [
-		    {
+			{
 				"name": "Fertilizer",
 				"row": 1,
-				"prerequisites": ["Infraestructure"],
+				"prerequisites": [
+					"Infraestructure"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Conservation",
 				"row": 2,
-				"prerequisites": ["Infraestructure"],
+				"prerequisites": [
+					"Infraestructure"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Economics",
 				"row": 3,
-				"prerequisites": ["Infraestructure","Printing Press"],
+				"prerequisites": [
+					"Infraestructure",
+					"Printing Press"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Scientific Theory",
 				"row": 6,
-				"uniques": [""],
-				"prerequisites": ["Astronomy","Printing Press"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Astronomy",
+					"Printing Press"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Navigation",
 				"row": 8,
-				"uniques": ["[+1] Movement <for [Embarked] units>",
-				"[+1] Movement <for [Water] units>"],
-				"prerequisites": ["Gunpowder","Astronomy"],
+				"uniques": [
+					"[+1] Movement <for [Embarked] units>",
+					"[+1] Movement <for [Water] units>"
+				],
+				"prerequisites": [
+					"Gunpowder",
+					"Astronomy"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Military Science",
 				"row": 9,
-				"uniques": ["[+1] Movement <for [Land] units>","[+10]% maintenance costs"],
-				"prerequisites": ["Gunpowder"],
+				"uniques": [
+					"[+1] Movement <for [Land] units>",
+					"[+10]% maintenance costs"
+				],
+				"prerequisites": [
+					"Gunpowder"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -85,30 +121,38 @@
 		"era": "Industrial era",
 		"techCost": 1600,
 		"techs": [
-		    {
+			{
 				"name": "Nationalization",
 				"row": 2,
-				"prerequisites": ["Conservation"],
+				"prerequisites": [
+					"Conservation"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Corporations",
 				"row": 3,
-				"prerequisites": ["Economics"],
+				"prerequisites": [
+					"Economics"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Industrialization",
 				"row": 6,
-				"prerequisites": ["Scientific Theory"],
+				"prerequisites": [
+					"Scientific Theory"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Rifling",
 				"row": 9,
-				"prerequisites": ["Military Science"],
+				"prerequisites": [
+					"Military Science"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -116,54 +160,74 @@
 		"era": "Industrial era",
 		"techCost": 2350,
 		"techs": [
-		    {
+			{
 				"name": "Biology",
 				"row": 1,
-				"uniques": ["[+5] HP when healing <for [All] units>"],
-				"prerequisites": ["Fertilizer"],
+				"uniques": [
+					"[+5] HP when healing <for [All] units>"
+				],
+				"prerequisites": [
+					"Fertilizer"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Unions",
 				"row": 2,
-				"uniques": ["[-33]% tile improvement construction time <while the empire is happy>",
-				"[+33]% tile improvement construction time <when below [0] Happiness>"
-				"[-15]% [Gold] <while the empire is happy>",
-				"[+15]% [Gold] <when below [0] Happiness>"],
-				"prerequisites": ["Nationalization"],
+				"uniques": [
+					"[-33]% tile improvement construction time <while the empire is happy>",
+					"[+33]% tile improvement construction time <when below [0] Happiness>",
+					"[-15]% [Gold] <while the empire is happy>",
+					"[+15]% [Gold] <when below [0] Happiness>"
+				],
+				"prerequisites": [
+					"Nationalization"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Electricity",
 				"row": 3,
-				"prerequisites": ["Corporations"],
+				"prerequisites": [
+					"Corporations"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Refining",
 				"row": 5,
-				"prerequisites": ["Industrialization"],
+				"prerequisites": [
+					"Industrialization"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Railroads",
 				"row": 6,
-				"prerequisites": ["Industrialization"],
+				"prerequisites": [
+					"Industrialization"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Steam Power",
 				"row": 7,
-				"uniques": ["[+2] Movement <for [Embarked] units>"],
-				"prerequisites": ["Industrialization"],
+				"uniques": [
+					"[+2] Movement <for [Embarked] units>"
+				],
+				"prerequisites": [
+					"Industrialization"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Military Operations",
 				"row": 9,
-				"prerequisites": ["Rifling"],
+				"prerequisites": [
+					"Rifling"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -171,31 +235,45 @@
 		"era": "Modern era",
 		"techCost": 3100,
 		"techs": [
-		    {
+			{
 				"name": "Radio",
 				"row": 1,
-				"prerequisites": ["Electricity","Biology"],
+				"prerequisites": [
+					"Electricity",
+					"Biology"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Refrigeration",
 				"row": 4,
-				"prerequisites": ["Electricity"],
+				"prerequisites": [
+					"Electricity"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Combustion",
 				"row": 6,
-				"uniques": ["[+1] Movement <for [Civilian] units> <with [Oil]>"],
-				"prerequisites": ["Railroads","Refining","Steam Power"],
+				"uniques": [
+					"[+1] Movement <for [Civilian] units> <with [Oil]>"
+				],
+				"prerequisites": [
+					"Railroads",
+					"Refining",
+					"Steam Power"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Replaceable Parts",
 				"row": 8,
-				"prerequisites": ["Steam Power","Military Operations"],
+				"prerequisites": [
+					"Steam Power",
+					"Military Operations"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -203,41 +281,63 @@
 		"era": "Modern era",
 		"techCost": 4100,
 		"techs": [
-		    {
+			{
 				"name": "Urbanization",
 				"row": 2,
-				"uniques": [""],
-				"prerequisites": ["Unions"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Unions"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Plastics",
 				"row": 3,
-				"uniques": [""],
-				"prerequisites": ["Refrigeration","Radio"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Refrigeration",
+					"Radio"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Flight",
 				"row": 6,
-				"uniques": [""],
-				"prerequisites": ["Combustion"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Combustion"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Military Vehicles",
 				"row": 7,
-				"uniques": [""],
-				"prerequisites": ["Combustion","Replaceable Parts"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Combustion",
+					"Replaceable Parts"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Electronics",
 				"row": 9,
-				"uniques": [""],
-				"prerequisites": ["Replaceable Parts"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Replaceable Parts"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -245,40 +345,63 @@
 		"era": "Atomic era",
 		"techCost": 5100,
 		"techs": [
-		    {
+			{
 				"name": "Advertising",
 				"row": 1,
-				"uniques": [""],
-				"prerequisites": ["Radio","Urbanization"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Radio",
+					"Urbanization"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Computers",
 				"row": 4,
-				"uniques": [""],
-				"prerequisites": ["Refrigeration","Electronics"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Refrigeration",
+					"Electronics"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Atomic Theory",
 				"row": 6,
-				"uniques": [""],
-				"prerequisites": ["Flight"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Flight"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Radar",
 				"row": 7,
-				"prerequisites": ["Military Vehicles","Flight","Electronics"],
+				"prerequisites": [
+					"Military Vehicles",
+					"Flight",
+					"Electronics"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Combined Arms",
 				"row": 8,
-				"uniques": [""],
-				"prerequisites": ["Military Vehicles","Electronics"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Military Vehicles",
+					"Electronics"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -286,48 +409,75 @@
 		"era": "Atomic era",
 		"techCost": 6400,
 		"techs": [
-		    {
+			{
 				"name": "Supply Chains",
 				"row": 1,
-				"uniques": [""],
-				"prerequisites": ["Advertising"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Advertising"
+				],
 				"quote": ""
 			},
-		    {
+			{
 				"name": "Alternative Energy",
 				"row": 2,
-				"uniques": [""],
-				"prerequisites": ["Advertising"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Advertising"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Globalization",
 				"row": 3,
-				"uniques": [""],
-				"prerequisites": ["Plastics"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Plastics"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Rocketry",
 				"row": 6,
-				"uniques": [""],
-				"prerequisites": ["Atomic Theory"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Atomic Theory"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Nuclear Power",
 				"row": 7,
-				"uniques": [""],
-				"prerequisites": ["Radar","Atomic Theory","Combined Arms"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Radar",
+					"Atomic Theory",
+					"Combined Arms"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Fast Deployment",
 				"row": 8,
-				"uniques": [""],
-				"prerequisites": ["Radar","Combined Arms"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Radar",
+					"Combined Arms"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -335,41 +485,62 @@
 		"era": "Information era",
 		"techCost": 7700,
 		"techs": [
-		    {
+			{
 				"name": "Genetics",
 				"row": 2,
-				"uniques": [""],
-				"prerequisites": ["Supply Chains","Alternative Energy"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Supply Chains",
+					"Alternative Energy"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Telecommunications",
 				"row": 4,
-				"uniques": [""],
-				"prerequisites": ["Globalization"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Globalization"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Satellites",
 				"row": 6,
-				"uniques": [""],
-				"prerequisites": ["Rocketry"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Rocketry"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Rangefinders",
 				"row": 7,
-				"uniques": [""],
-				"prerequisites": ["Nuclear Power"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Nuclear Power"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Lasers",
 				"row": 8,
-				"uniques": [""],
-				"prerequisites": ["Fast Deployment"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Fast Deployment"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -377,48 +548,74 @@
 		"era": "Information era",
 		"techCost": 8800,
 		"techs": [
-		    {
+			{
 				"name": "Enviromentalism",
 				"row": 1,
-				"uniques": [""],
-				"prerequisites": ["Supply Chains"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Supply Chains"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Superconductors",
 				"row": 3,
-				"uniques": ["+50% Power to buildings that Provide it"],
-				"prerequisites": ["Genetics"],
+				"uniques": [
+					"+50% Power to buildings that Provide it"
+				],
+				"prerequisites": [
+					"Genetics"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Miniaturization",
 				"row": 4,
-				"uniques": ["+1 Assigned Yield to Enhancer Improvements"],
-				"prerequisites": ["Telecommunications"],
+				"uniques": [
+					"+1 Assigned Yield to Enhancer Improvements"
+				],
+				"prerequisites": [
+					"Telecommunications"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Artificial Intelligence",
 				"row": 5,
-				"uniques": ["[+50]% Yield from every [Great Improvement]"],
-				"prerequisites": ["Telecommunications","Satellites"],
+				"uniques": [
+					"[+50]% Yield from every [Great Improvement]"
+				],
+				"prerequisites": [
+					"Telecommunications",
+					"Satellites"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Robotics",
 				"row": 6,
-				"uniques": [""],
-				"prerequisites": ["Satellites","Rangefinders"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Satellites",
+					"Rangefinders"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Stealth",
 				"row": 8,
-				"uniques": [""],
-				"prerequisites": ["Lasers"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Lasers"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -426,34 +623,55 @@
 		"era": "Future era",
 		"techCost": 9500,
 		"techs": [
-		    {
+			{
 				"name": "Terraforming",
 				"row": 2,
-				"uniques": [""],
-				"prerequisites": ["Enviromentalism","Superconductors"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Enviromentalism",
+					"Superconductors"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Nanotechnology",
 				"row": 6,
-				"uniques": [""],
-				"prerequisites": ["Robotics","Miniaturization","Artificial Intelligence"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Robotics",
+					"Miniaturization",
+					"Artificial Intelligence"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Enhancing",
 				"row": 7,
-				"uniques": [""],
-				"prerequisites": ["Robotics","Miniaturization"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Robotics",
+					"Miniaturization"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Spaceflight",
 				"row": 8,
-				"uniques": [""],
-				"prerequisites": ["Stealth","Robotics"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Stealth",
+					"Robotics"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -461,41 +679,62 @@
 		"era": "Future era",
 		"techCost": 12000,
 		"techs": [
-		    {
+			{
 				"name": "World Alliance",
 				"row": 1,
-				"uniques": [""],
-				"prerequisites": ["Terraforming"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Terraforming"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Clean Energy",
 				"row": 3,
-				"uniques": [""],
-				"prerequisites": ["Terraforming"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Terraforming"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Metagenetics",
 				"row": 4,
-				"uniques": ["[+15] HP when healing <for [Infantry] units>"],
-				"prerequisites": ["Miniaturization"],
+				"uniques": [
+					"[+15] HP when healing <for [Infantry] units>"
+				],
+				"prerequisites": [
+					"Miniaturization"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Smart Materials",
 				"row": 6,
-				"uniques": [""],
-				"prerequisites": ["Nanotechnology"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Nanotechnology"
+				],
 				"quote": ""
 			},
 			{
 				"name": "Particle Physics",
 				"row": 8,
-				"uniques": [""],
-				"prerequisites": ["Enhancing","Spaceflight"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"Enhancing",
+					"Spaceflight"
+				],
 				"quote": ""
-			},
+			}
 		]
 	},
 	{
@@ -503,13 +742,21 @@
 		"era": "Future era",
 		"techCost": 15000,
 		"techs": [
-		    {
+			{
 				"name": "Future Tech",
 				"row": 6,
-				"uniques": [""],
-				"prerequisites": ["World Alliance","Clean Energy","Metagenetics","Smart Materials","Particle Physics"],
+				"uniques": [
+					""
+				],
+				"prerequisites": [
+					"World Alliance",
+					"Clean Energy",
+					"Metagenetics",
+					"Smart Materials",
+					"Particle Physics"
+				],
 				"quote": ""
-			},
+			}
 		]
-	},
+	}
 ]
