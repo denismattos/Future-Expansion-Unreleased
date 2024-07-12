@@ -1,0 +1,489 @@
+[
+    {
+		"name": "Heal Instantly",
+		"uniques": ["Heal this unit by [50] HP", "Doing so will consume this opportunity to choose a Promotion"],
+		"unitTypes": ["Sword","Gunpowder","Mounted","Scout","Siege","Archery","Melee Infantry","Ranged Infantry","Recon Infantry","Melee Armor","Ranged Armor","Recon Armor","Melee Water","Ranged Water","Recon Water","Air Fighter","Air Bomber"],
+        "row": 0,
+        "column": 0
+    },
+	//Melee Infantry
+	{
+		"name": "Attacker I",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry","Melee Armor","Ranged Armor","Melee Water","Ranged Water"],
+        "column": 1,
+        "row": 1
+    },
+	{
+		"name": "Attacker II",
+		"prerequisites": ["Attacker I"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry","Melee Armor","Ranged Armor","Melee Water","Ranged Water"],
+        "column": 1,
+        "row": 2
+    },
+	{
+		"name": "Attacker III",
+		"prerequisites": ["Attacker II"],
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry","Melee Armor","Ranged Armor","Melee Water","Ranged Water"],
+        "column": 1,
+        "row": 3
+    },
+	{
+		"name": "Defender I",
+		"uniques": ["[+25]% Strength <when attacking>"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry","Melee Armor","Ranged Armor","Melee Water","Ranged Water"],
+        "column": 3,
+        "row": 1
+    },
+	{
+		"name": "Defender II",
+		"prerequisites": ["Defender I"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry","Melee Armor","Ranged Armor","Melee Water","Ranged Water"],
+        "column": 3,
+        "row": 2
+    },
+	{
+		"name": "Defender III",
+		"prerequisites": ["Defender II"],
+		"uniques": ["[+25]% Strength <when defending>"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry","Melee Armor","Ranged Armor","Melee Water","Ranged Water"],
+        "column": 3,
+        "row": 3
+    },
+	{
+		"name": "First Aid",
+		"prerequisites": ["Attacker I", "Defender I"],
+		"uniques": ["[+25] HP when healing"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry"]
+        "column": 2,
+        "row": 2
+	},
+	{
+		"name": "Guard",
+		"prerequisites": ["Attacker I", "Defender I"],
+		"uniques": ["[+50]% Strength <vs [Ranged] units> <when defending>"],
+		"unitTypes": ["Melee Infantry"]
+        "column": 4,
+        "row": 2
+	},
+	{
+		"name": "Surprise",
+		"prerequisites": ["Attacker II", "Defender II"],
+		"uniques": ["[+100]% to Flank Attack bonuses"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry"]
+        "column": 2,
+        "row": 3
+	},
+	{
+		"name": "Rally",
+		"prerequisites": ["Attacker II", "Defender II"],
+		"uniques": ["[+50]% Strength <vs [Mount] units>","[+50]% Strength <vs [Armor] units>"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry"]
+        "column": 4,
+        "row": 3
+	},
+	{
+		"name": "Advance",
+		"prerequisites": ["Attacker III", "Defender III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry","Recon Infantry"]
+        "column": 2,
+        "row": 4
+	},
+	{
+		"name": "Rush",
+		"prerequisites": ["Attacker III", "Defender III"],
+		"uniques": ["[1] additional attacks per turn"],
+		"unitTypes": ["Melee Infantry","Ranged Infantry","Recon Infantry","Melee Water","Ranged Water","Recon Water"]
+        "column": 4,
+        "row": 4
+	},
+	//Ranged Infantry
+	//Recon Infantry
+	{
+		"name": "Survival I",
+		"uniques": ["[+25] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Recon Infantry","Recon Armor","Recon Water"],
+        "column": 11,
+        "row": 1
+    },
+	{
+		"name": "Survival II",
+		"prerequisites": ["Survival I"],
+		"uniques": ["[+25] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Recon Infantry","Recon Armor","Recon Water"],
+        "column": 11,
+        "row": 2
+    },
+	{
+		"name": "Survival III",
+		"prerequisites": ["Survival II"],
+		"uniques": ["[+25] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Recon Infantry","Recon Armor","Recon Water"],
+        "column": 11,
+        "row": 3
+    },
+	{
+		"name": "Patrol I",
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Recon Infantry","Recon Armor","Recon Water"],
+        "column": 13,
+        "row": 1
+    },
+	{
+		"name": "Patrol II",
+		"prerequisites": ["Patrol I"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Recon Infantry","Recon Armor","Recon Water"],
+        "column": 13,
+        "row": 2
+    },
+	{
+		"name": "Patrol III",
+		"prerequisites": ["Patrol II"],
+		"uniques": ["[+1] Sight"],
+		"unitTypes": ["Recon Infantry","Recon Armor","Recon Water"],
+        "column": 13,
+        "row": 3
+    },
+	{
+		"name": "Voyage",
+		"prerequisites": ["Survival I", "Patrol I","Attacker I","Defender I"],
+		"uniques": ["[+1] Movement"],
+		"unitTypes": ["Recon Infantry","Recon Armor","Melee Water","Ranged Water","Recon Water"],
+        "column": 12,
+        "row": 2
+	},
+	{
+		"name": "Retreat",
+		"prerequisites": ["Survival I", "Patrol I","Attacker I","Defender I"],
+		"uniques": ["May withdraw before melee ([40]%)"],
+		"unitTypes": ["Ranged Infantry","Recon Infantry","Melee Armor","Ranged Armor","Recon Armor","Ranged Water","Recon Water"],
+        "column": 14,
+        "row": 2
+	},
+	{
+		"name": "Raider",
+		"prerequisites": ["Survival II", "Patrol II"],
+		"uniques": ["Earn [50]% of killed [Military] unit's [Cost] as [Gold]"],
+		"unitTypes": ["Recon Infantry","Recon Armor","Recon Water"],
+        "column": 12,
+        "row": 3
+	},
+	{
+		"name": "Bribery",
+		"prerequisites": ["Survival II", "Patrol II"],
+		"uniques": ["May capture killed [Military] units <with [40]% chance>"],
+		"unitTypes": ["Recon Infantry","Recon Armor"],
+        "column": 14,
+        "row": 3
+	},
+	//Melee Armor
+	{
+		"name": "Impact",
+		"prerequisites": ["Attacker I", "Defender I"],
+		"uniques": ["[+50]% Strength <vs [Wounded] units> <when defending>"],
+		"unitTypes": ["Melee Armor"],
+        "column": 15,
+        "row": 2
+	},
+	{
+		"name": "Oportunity",
+		"prerequisites": ["Attacker II", "Defender II"],
+		"uniques": ["[+50]% Strength <vs [Wounded] units> <when attacking>"],
+		"unitTypes": ["Melee Armor"],
+        "column": 17,
+        "row": 3
+	},
+	{
+		"name": "Outmaneuver",
+		"prerequisites": ["Attacker II", "Defender II"],
+		"uniques": ["[+100]% Strength <vs [Ranged] units> <when defending> <with [40]% chance>"],
+		"unitTypes": ["Melee Armor","Melee Water","Melee Water"],
+        "column": 15,
+        "row": 3
+	},
+    {
+		"name": "Blockade",
+		"prerequisites": ["Attacker III", "Defender III"],
+		"uniques": ["[+100]% Strength <vs cities>"],
+		"unitTypes": ["Melee Armor","Ranged Armor","Recon Armor"],
+        "column": 15,
+        "row": 4
+	},	
+	{
+		"name": "Push",
+		"prerequisites": ["Attacker III", "Defender III"],
+		"uniques": ["No movement cost to pillage"],
+		"unitTypes": ["Melee Armor","Recon Armor"],
+        "column": 17,
+        "row": 4
+	},
+	//Ranged Armor
+	//Recon Armor
+	//Melee Water
+	{
+		"name": "Lurk",
+		"prerequisites": ["Attacker II", "Defender II"],
+		"uniques": ["[+35]% Strength <vs [Water] units>"],
+		"unitTypes": ["Melee Water","Ranged Water","Recon Water"],
+        "column": 18,
+        "row": 3
+	},
+	{
+		"name": "Extra Range",
+		"prerequisites": ["Attacker II", "Defender II"],
+		"uniques": ["[+1] Range"],
+		"unitTypes": ["Ranged Armor","Ranged Water"],
+        "column": 19,
+        "row": 3
+	},
+	{
+		"name": "Supplies",
+		"prerequisites": ["Attacker III", "Defender III"],
+		"uniques": ["May heal outside of friendly territory", "[+15] HP when healing <in [Foreign Land] tiles>"],
+		"unitTypes": ["Melee Water","Ranged Water","Recon Water"],
+        "column": 18,
+        "row": 4
+	},
+	//Ranged Water
+	//Recon Water
+	//Air Fighter
+	{
+		"name": "Interception I",
+		"uniques": ["[+25]% Damage when intercepting","[+25]% Strength when performing Air Sweep"],
+		"unitTypes": ["Air Fighter"],
+        "column": 21,
+        "row": 1
+    },
+	{
+		"name": "Interception II",
+		"prerequisites": ["Interception I"],
+		"uniques": ["[+25]% Damage when intercepting","[+25]% Strength when performing Air Sweep"],
+		"unitTypes": ["Air Fighter"],
+        "column": 21,
+        "row": 2
+    },
+	{
+		"name": "Interception III",
+		"prerequisites": ["Interception II"],
+		"uniques": ["[+25]% Damage when intercepting","[+25]% Strength when performing Air Sweep"],
+		"unitTypes": ["Air Fighter"],
+        "column": 21,
+        "row": 3
+    },
+	{
+		"name": "Air Siege I",
+		"uniques": ["[+25]% Strength <vs cities>"],
+		"unitTypes": ["Air Bomber"],
+        "column": 26,
+        "row": 1
+	},
+	{
+		"name": "Air Siege II",
+		"prerequisites": ["Siege I"],
+		"uniques": ["[+25]% Strength <vs cities>"],
+		"unitTypes": ["Air Bomber"],
+        "column": 26,
+        "row": 2
+	},
+	{
+		"name": "Air Siege III",
+		"prerequisites": ["Siege II"],
+		"uniques": ["[+25]% Strength <vs cities>"],
+		"unitTypes": ["Air Bomber"],
+        "column": 26,
+        "row": 3
+	},
+	{
+		"name": "Bombardment I",
+		"uniques": ["[+25]% Strength <vs [Land] units>"],
+		"unitTypes": ["Air Fighter","Air Bomber"],
+        "column": 25,
+        "row": 1
+	},
+	{
+		"name": "Bombardment II",
+		"prerequisites": ["Bombardment I"],
+		"uniques": ["[+25]% Strength <vs [Land] units>"],
+		"unitTypes": ["Air Fighter","Air Bomber"],
+        "column": 25,
+        "row": 2
+	},
+	{
+		"name": "Bombardment III",
+		"prerequisites": ["Bombardment II"],
+		"uniques": ["[+25]% Strength <vs [Land] units>"],
+		"unitTypes": ["Air Fighter","Air Bomber"],
+        "column": 25,
+        "row": 3
+	},
+	{
+		"name": "Operational Range",
+		"prerequisites": ["Bombardment I","Interception I","Siege I"],
+		"uniques": ["[+2] Range"],
+		"unitTypes": ["Air Fighter","Air Bomber"],
+        "column": 22,
+        "row": 2
+	},
+	{
+		"name": "Air Targeting",
+		"prerequisites": ["Bombardment I","Interception I","Siege I"],
+		"uniques": ["[+50]% Strength <vs [Water] units>"],
+		"unitTypes": ["Air Fighter","Air Bomber"],
+        "column": 24,
+        "row": 2
+	},
+	{
+		"name": "Sortie",
+		"prerequisites": ["Bombardment II","Interception II"],
+		"uniques": ["[1] extra interceptions may be made per turn"],
+		"unitTypes": ["Air Fighter"],
+        "column": 22,
+        "row": 3
+	},
+	{
+		"name": "Strategic Bombing",
+		"prerequisites": ["Bombardment II","Siege II"],
+		"uniques": ["Destroys tile improvements when attacking"],
+		"unitTypes": ["Air Bomber"],
+        "column": 24,
+        "row": 3
+	},
+	{
+		"name": "Evasion",
+		"prerequisites": ["Bombardment II","Siege II","Interception II"],
+		"uniques": ["Damage taken from interception reduced by [50]%"],
+		"unitTypes": ["Air Fighter","Air Bomber"],
+        "column": 27,
+        "row": 3
+	},
+	{
+		"name": "Air Repair",
+		"prerequisites": ["Bombardment III","Siege III","Interception III"],
+		"uniques": ["Unit will heal every turn, even if it performs an action"],
+		"unitTypes": ["Air Fighter","Air Bomber"],
+        "column": 27,
+        "row": 4
+	},
+	{
+		"name": "Dual Strike",
+		"prerequisites": ["Bombardment III","Siege III","Interception III","Attacker III","Defender III"],
+		"uniques": ["[1] additional attacks per turn","Can move after attacking"],
+		"unitTypes": ["Air Fighter","Air Bomber","Ranged Armor"],
+        "column": 24,
+        "row": 4
+	},
+	//Implants
+	{
+		"name": "Speed Implant",
+		"prerequisites": ["Bombardment III","Siege III","Interception III","Attacker III","Defender III"],
+		"uniques": ["[+25]% Strength",
+		"[+1] Movement",
+		"May withdraw before melee ([50]%)",
+		"Heal this unit by [-7] HP <upon ending a turn in a [All] tile>",
+		"Only available <if [Implants Breakthrough I] is constructed>",
+		"Only available <for units with [Implants]>"],
+		"unitTypes": ["Melee Infantry"],
+        "column": 9,
+        "row": 3
+	},
+	{
+		"name": "Skin Implant",
+		"prerequisites": ["Bombardment III","Siege III","Interception III","Attacker III","Defender III"],
+		"uniques": ["[+25]% Strength",
+		"[+25]% Strength <when defending>",
+		"[+100]% Strength <vs [Ranged] units> <when defending> <with [50]% chance>",
+		"Heal this unit by [-7] HP <upon ending a turn in a [All] tile>",
+		"Only available <if [Implants Breakthrough I] is constructed>",
+		"Only available <for units with [Implants]>"],
+		"unitTypes": ["Melee Infantry"],
+        "column": 9,
+        "row": 4
+	},
+	{
+		"name": "Stealth Implant",
+		"prerequisites": ["Bombardment III","Siege III","Interception III","Attacker III","Defender III"],
+		"uniques": ["[+25]% Strength",
+		"[+1] Movement",
+		"Invisible to non-adjacent units",
+		"Can move after attacking",
+		"Heal this unit by [-7] HP <upon ending a turn in a [All] tile>",
+		"Only available <if [Implants Breakthrough II] is constructed>",
+		"Only available <for units with [Implants]>"],
+		"unitTypes": ["Melee Infantry"],
+        "column": 9,
+        "row": 5
+	},
+	{
+		"name": "Optic Implant",
+		"prerequisites": ["Bombardment III","Siege III","Interception III","Attacker III","Defender III"],
+		"uniques": ["[+25]% Strength",
+		"Can see invisible [All] units",
+		"[+3] Sight"
+		"[+100]% Strength <vs [Ranged] units> <when defending>",
+		"Heal this unit by [-7] HP <upon ending a turn in a [All] tile>",
+		"Only available <if [Implants Breakthrough II] is constructed>",
+		"Only available <for units with [Implants]>"],
+		"unitTypes": ["Melee Infantry"],
+        "column": 9,
+        "row": 6
+	},
+	{
+		"name": "Mechsuit Implant",
+		"prerequisites": ["Bombardment III","Siege III","Interception III","Attacker III","Defender III"],
+		"uniques": ["[+75]% Strength",
+		"Heal this unit by [-7] HP <upon ending a turn in a [All] tile>",
+		"Only available <if [Implants Breakthrough II] is constructed>",
+		"Only available <after adopting [Cybernetics]>",
+		"Only available <for units with [Implants]>"],
+		"unitTypes": ["Melee Infantry"],
+        "column": 9,
+        "row": 7
+	},
+	//Unique Type
+	{
+		"name": "Disciplined",
+		"uniques": ["[+50]% XP gained from combat"],
+        "column": 6,
+        "row": 4
+	},
+	{
+		"name": "Morale",
+		"uniques": ["[+25]% Strength <when attacking>",
+		"[+25]% Strength <when defending>"],
+        "column": 6,
+        "row": 5
+	},
+	{
+		"name": "Tactics",
+		"uniques": ["[+25]% Strength <when defending>"],
+        "column": 6,
+        "row": 6
+	},
+	{
+		"name": "Implants",
+		"uniques": ["Enables Implant Promotions"],
+        "column": 9,
+        "row": 2
+	},
+	{
+		"name": "Future Weaponry",
+		"uniques": ["[+50]% Strength <vs [Renaissance] units>",
+		"[+50]% Strength <vs [Industrial] units>",
+		"[+50]% Strength <vs [Modern] units>",
+		"[+50]% Strength <vs [Atomic] units>",
+		"[+50]% Strength <vs [Information] units>"],
+        "column": 9,
+        "row": 1
+	},
+	{
+		"name": "Ignore terrain cost",
+		"uniques": ["Ignores terrain cost"],
+        "column": 5,
+        "row": 1
+	},
+]
