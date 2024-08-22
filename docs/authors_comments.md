@@ -1,6 +1,6 @@
 # Sullien's Comments
 Much like [I did with my reupload of Future Expansion](https://github.com/denismattos/Future-Expansion-Unreleased/blob/main/authors_comments.md), I'm cleaning the .json of comments by moving them to a separate file, here.
-## [Buildings.json](https://github.com/denismattos/Future-Expansion-Unreleased/blob/main/jsons/Buildings.json)
+## [Buildings.json](/jsons/Buildings.json)
 Buildings.json's comments were used to divide additions and modifications by eras and categories.
 ### "Always Available (Kept because the Palace stores Policy Upgrades.)"
 * Palace
@@ -137,14 +137,14 @@ Buildings.json's comments were used to divide additions and modifications by era
 * Implants Breakthrough I
 * Implants Breakthrough II
 * Implants Breakthrough III
-## [Eras.json](https://github.com/denismattos/Future-Expansion-Unreleased/blob/main/jsons/Eras.json)
+## [Eras.json](/jsons/Eras.json)
 * Ancient era's `"startingSettlerCount": 1` line was commented:  
 "These values should not include the values given in Difficulties.json."
 * Information era's `"settlerBuildings"` attribute was commented (Presumably referring to the following `"startingObsoleteWonders"` attribute.):  
 "So, theoretically, this is always just all the wonders at least 2 eras old. So we could just use that.  
 But where is the modularity? The excluding of very specific wonders? That is no fun.  
 So we just write down the entire long list (sorted by era!), instead."
-## [TileImprovements.json](https://github.com/denismattos/Future-Expansion-Unreleased/blob/main/jsons/TileImprovements.json)
+## [TileImprovements.json](/jsons/TileImprovements.json)
 TileImprovements.json's comments were used to divide improvements by eras and categories.
 ### "Basic Improvements"
 * Farm
@@ -190,7 +190,7 @@ TileImprovements.json's comments were used to divide improvements by eras and ca
 ### "Unique"
 * Railroad
 * City Center
-## [TileResources.json](https://github.com/denismattos/Future-Expansion-Unreleased/blob/main/jsons/TileResources.json)
+## [TileResources.json](/jsons/TileResources.json)
 TileResources.json's comments were used to divide resources by categories.
 ### "Bonus"
 Natural Appeal
@@ -210,7 +210,7 @@ Fossil
 * Medicine
 * Publication
 * Electronics
-## [UnitPromotions.json](https://github.com/denismattos/Future-Expansion-Unreleased/blob/main/jsons/UnitPromotions.json)
+## [UnitPromotions.json](/jsons/UnitPromotions.json)
 Some of UnitPromotions.json's promotions were divided by categories using comments.
 ### "Melee Infantry"
 * Attacker I
@@ -286,7 +286,7 @@ No promotions.
 * Implants
 * Future Weaponry
 * Ignore Terrain Cost
-## [Units.json](https://github.com/denismattos/Future-Expansion-Unreleased/blob/main/jsons/Units.json)
+## [Units.json](/jsons/Units.json)
 Units.json's comments were used to divide units by eras and categories.  
 Additional comments were:
 * Samurai was commented: "Samurai should also create Fishing Boats (not now, surely)."
