@@ -6,7 +6,7 @@ I've corrected a few syntax typos and uploaded it here for preservation and refe
 This is not a working mod; it's merely an upload of a partial, unreleased version.  
 Therefore, it **will not work** as is.
 ## Ownership Disclaimer
-Inspired by the awesome [@emipa606](https://github.com/emipa606). \=\)
+Inspired by the awesome Mlie [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/emipa606). 🙂
 
 * This is an upload of an unreleased mod.
 * I claim no ownership of the mod.
