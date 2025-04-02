@@ -1,14 +1,14 @@
 # Future Expansion – Unreleased (v5 – Project Edition)
-In June of 2023, [@Sullien](https://github.com/Sullien) released [a preview of his future plans for Future Expansion](https://discord.com/channels/586194543280390151/1020909710871887913/1117652119256838155) in the form of [a RAR file containing his latet .json](https://cdn.discordapp.com/attachments/1020909710871887913/1117652118938062949/Future_Expansion_PE_TEST_BETA.rar?ex=669298e6&is=66914766&hm=dda58f07e48623897bdbcb6daa2d89c923b75a411349983117e6ab1672ba117a&).
+In June of 2023, Sullien [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/Sullien) released [a preview of his future plans for Future Expansion](https://discord.com/channels/586194543280390151/1020909710871887913/1117652119256838155) in the form of [a RAR file containing his latet JSON](https://cdn.discordapp.com/attachments/1020909710871887913/1117652118938062949/Future_Expansion_PE_TEST_BETA.rar?ex=669298e6&is=66914766&hm=dda58f07e48623897bdbcb6daa2d89c923b75a411349983117e6ab1672ba117a&).
 
 I've corrected a few syntax typos and uploaded it here for preservation and reference.
 ## Functionality Warning
 This is not a working mod; it's merely an upload of a partial, unreleased version.  
 Therefore, it **will not work** as is.
 ## Ownership Disclaimer
-Inspired by the awesome [@emipa606](https://github.com/emipa606). \=\)
+Inspired by the awesome Mlie [<img src="https://i.imgur.com/qdtKSSq.png">](https://github.com/emipa606). 🙂
 
-* This is an upload of an ubreleased mod.
+* This is an upload of an unreleased mod.
 * I claim no ownership of the mod.
 * This version may be taken down by request from the original author.
 * The original author is free to use this mod to update their own.
