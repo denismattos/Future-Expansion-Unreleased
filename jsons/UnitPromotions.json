@@ -2,7 +2,7 @@
 	{
 		"name": "Heal Instantly",
 		"uniques": [
-			"Heal this unit by [50] HP",
+			"[This Unit] heals [50] HP",
 			"Doing so will consume this opportunity to choose a Promotion"
 		],
 		"unitTypes": [
@@ -356,7 +356,7 @@
 			"Defender I"
 		],
 		"uniques": [
-			"May withdraw before melee ([40]%)"
+			"Withdraws before melee combat <with [40]% chance>"
 		],
 		"unitTypes": [
 			"Ranged Infantry",
@@ -788,7 +788,7 @@
 		"uniques": [
 			"[+25]% Strength",
 			"[+1] Movement",
-			"May withdraw before melee ([50]%)",
+			"Withdraws before melee combat <with [50]% chance>",
 			"Heal this unit by [-7] HP <upon ending a turn in a [All] tile>",
 			"Only available <if [Implants Breakthrough I] is constructed>",
 			"Only available <for units with [Implants]>"

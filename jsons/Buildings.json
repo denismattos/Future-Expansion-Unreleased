@@ -423,7 +423,7 @@
 		"requiredTech": "Military Operations",
 		"uniques": [
 			"Military Building",
-			"New [Military] units start with [15] Experience [in this city]",
+			"New [Military] units start with [15] XP [in this city]",
 			"[+1 Food, +2 Science] from [Fort] tiles [in this city]",
 			"[+1 Food, +2 Science] from [Citadel] tiles [in this city]"
 		]
@@ -1014,7 +1014,7 @@
 		},
 		"uniques": [
 			"Free [Great General] appears",
-			"New [Military] units start with [15] Experience [in this city]"
+			"New [Military] units start with [15] XP [in this city]"
 		],
 		"quote": ""
 	},
@@ -1370,10 +1370,10 @@
 		"isNationalWonder": true,
 		"requiredResource": "Composites",
 		"uniques": [
-			"Hidden until [6] social policy branches have been completed",
+			"Unavailable <when number of [Completed Policy branches] is less than [6]>",
 			"Triggers a global alert upon build start",
 			"Triggers a Cultural Victory upon completion",
-			"Hidden when [Cultural] Victory is disabled",
+			"Only available <when [Cultural] Victory is enabled>",
 			"Cannot be hurried"
 		]
 	},
@@ -1460,7 +1460,7 @@
 			"Project",
 			"Enables construction of Spaceship parts",
 			"Triggers a global alert upon completion",
-			"Hidden when [Scientific] Victory is disabled"
+			"Only available <when [Scientific] Victory is enabled>"
 		]
 	},
 	{

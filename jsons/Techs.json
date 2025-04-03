@@ -175,8 +175,8 @@
 				"name": "Unions",
 				"row": 2,
 				"uniques": [
-					"[-33]% tile improvement construction time <while the empire is happy>",
-					"[+33]% tile improvement construction time <when below [0] Happiness>",
+					"[-33]% construction time for [All] improvements <while the empire is happy>",
+					"[+33]% construction time for [All] improvements <when below [0] Happiness>",
 					"[-15]% [Gold] <while the empire is happy>",
 					"[+15]% [Gold] <when below [0] Happiness>"
 				],
