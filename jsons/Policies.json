@@ -299,7 +299,7 @@
             {
                 "name": "Nationalism",
                 "uniques": [
-                    "[-25]% tile improvement construction time",
+                    "[-25]% construction time for [All] improvements",
                     "[+15]% Strength <for [All] units> <when fighting in [Friendly Land] tiles>"
                 ],
                 "row": 1,
