@@ -55,7 +55,7 @@ Buildings.json's comments were used to divide additions and modifications by era
 * Medical Lab
 * TV Station
 * Missile Silo
-* Enviromental Center
+* Environmental Center
 * Military Lab
 * Administration Center
 * Operations Network

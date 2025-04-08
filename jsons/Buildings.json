@@ -28,7 +28,7 @@
 		"name": "Sewer",
 		"cost": 230,
 		"maintenance": 2,
-		"requiredTech": "Infraestructure",
+		"requiredTech": "Infrastructure",
 		"requiredBuilding": "Aqueduct",
 		"uniques": [
 			"[+1 Happiness, -2 Gold] per [4] population [in this city]",
@@ -735,11 +735,11 @@
 		]
 	},
 	{
-		"name": "Enviromental Center",
+		"name": "Environmental Center",
 		"cost": 750,
 		"maintenance": 3,
 		"requiredResource": "Power",
-		"requiredTech": "Enviromentalism",
+		"requiredTech": "Environmentalism",
 		"uniques": [
 			"[+2 Food, +2 Production] from [Wind Farm] tiles [in this city]",
 			"[+2 Gold, +2 Production] from [Solar Farm] tiles [in this city]",
@@ -912,7 +912,7 @@
 		"culture": 1,
 		"isWonder": true,
 		"cost": 575,
-		"requiredTech": "Infraestructure",
+		"requiredTech": "Infrastructure",
 		"uniques": [
 			"[-50]% Unhappiness from [Population] [in all cities]",
 			"Must be on [Plains]"
@@ -1728,7 +1728,7 @@
 		]
 	},
 	{
-		"name": "Infraestructure Breakthrough I",
+		"name": "Infrastructure Breakthrough I",
 		"cost": 320,
 		"isNationalWonder": true,
 		"requiredTech": "Refining",
@@ -1741,7 +1741,7 @@
 		]
 	},
 	{
-		"name": "Infraestructure Breakthrough II",
+		"name": "Infrastructure Breakthrough II",
 		"cost": 500,
 		"isNationalWonder": true,
 		"uniques": [
@@ -1749,12 +1749,12 @@
 			"[+2 Food] from [Urban District] tiles [in all cities]",
 			"[+2 Production] from [Industrial Zone] tiles [in all cities]",
 			"[+2 Gold] from [Commercial Center] tiles [in all cities]",
-			"Only available <if [Infraestructure Breakthrough I] is constructed>",
+			"Only available <if [Infrastructure Breakthrough I] is constructed>",
 			"Cost increases by [35] per owned city"
 		]
 	},
 	{
-		"name": "Infraestructure Breakthrough III",
+		"name": "Infrastructure Breakthrough III",
 		"cost": 700,
 		"isNationalWonder": true,
 		"uniques": [
@@ -1762,7 +1762,7 @@
 			"[+2 Food] from [Urban District] tiles [in all cities]",
 			"[+2 Production] from [Industrial Zone] tiles [in all cities]",
 			"[+2 Gold] from [Commercial Center] tiles [in all cities]",
-			"Only available <if [Infraestructure Breakthrough II] is constructed>",
+			"Only available <if [Infrastructure Breakthrough II] is constructed>",
 			"Cost increases by [50] per owned city"
 		]
 	},
