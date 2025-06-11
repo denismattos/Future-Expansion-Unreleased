@@ -317,7 +317,7 @@
 		},
 		"requiredTech": "Electricity",
 		"uniques": [
-			"[-75]% maintenance cost for buildings [in this city]"
+			"[-75]% maintenance cost for [all] buildings [in this city]"
 		]
 	},
 	{
