@@ -370,10 +370,10 @@
 			"Snow"
 		],
 		"food": 1,
-		"techRequired": "Infraestructure",
+		"techRequired": "Infrastructure",
 		"turnsToBuild": 14,
 		"uniques": [
-			"Infraestructure",
+			"Infrastructure",
 			"[+2 Food] <within [2] tiles of a [Water Plant]>",
 			"[+2 Gold] <within [2] tiles of a [Warehouse]>",
 			"[+2 Science] <within [2] tiles of a [Institute]>",
@@ -407,10 +407,10 @@
 			"Snow"
 		],
 		"production": 1,
-		"techRequired": "Infraestructure",
+		"techRequired": "Infrastructure",
 		"turnsToBuild": 14,
 		"uniques": [
-			"Infraestructure",
+			"Infrastructure",
 			"[+2 Food] <within [2] tiles of a [Water Plant]>",
 			"[+2 Gold] <within [2] tiles of a [Warehouse]>",
 			"[+2 Science] <within [2] tiles of a [Institute]>",
@@ -446,10 +446,10 @@
 			"Snow"
 		],
 		"gold": 1,
-		"techRequired": "Infraestructure",
+		"techRequired": "Infrastructure",
 		"turnsToBuild": 14,
 		"uniques": [
-			"Infraestructure",
+			"Infrastructure",
 			"[+2 Food] <within [2] tiles of a [Water Plant]>",
 			"[+2 Gold] <within [2] tiles of a [Warehouse]>",
 			"[+2 Science] <within [2] tiles of a [Institute]>",
@@ -490,7 +490,7 @@
 		"turnsToBuild": 12,
 		"uniques": [
 			"Enhancer Improvement",
-			"Grants +2 [Food] to Infraestructure Improvements within 2 Tiles",
+			"Grants +2 [Food] to Infrastructure Improvements within 2 Tiles",
 			"Pillaging this improvement yields approximately [+25 Gold]",
 			"Tile provides yield without assigned population",
 			"Only available <after discovering [Fertilizer]>",
@@ -515,7 +515,7 @@
 		"turnsToBuild": 12,
 		"uniques": [
 			"Enhancer Improvement",
-			"Grants +2 [Gold] to Infraestructure Improvements within 2 Tiles",
+			"Grants +2 [Gold] to Infrastructure Improvements within 2 Tiles",
 			"Pillaging this improvement yields approximately [+25 Gold]",
 			"Tile provides yield without assigned population",
 			"Only available <after discovering [Economics]>",
@@ -540,7 +540,7 @@
 		"turnsToBuild": 12,
 		"uniques": [
 			"Enhancer Improvement",
-			"Grants +2 [Science] to Infraestructure Improvements within 2 Tiles",
+			"Grants +2 [Science] to Infrastructure Improvements within 2 Tiles",
 			"Pillaging this improvement yields approximately [+25 Gold]",
 			"Tile provides yield without assigned population",
 			"Only available <after discovering [Scientific Theory]>",
@@ -565,7 +565,7 @@
 		"turnsToBuild": 12,
 		"uniques": [
 			"Enhancer Improvement",
-			"Grants +2 [Culture] to Infraestructure Improvements within 2 Tiles",
+			"Grants +2 [Culture] to Infrastructure Improvements within 2 Tiles",
 			"Pillaging this improvement yields approximately [+25 Gold]",
 			"Tile provides yield without assigned population",
 			"Only available <after discovering [Radio]>",
@@ -590,7 +590,7 @@
 		"turnsToBuild": 12,
 		"uniques": [
 			"Enhancer Improvement",
-			"Grants +2 [Culture] to Infraestructure Improvements within 2 Tiles",
+			"Grants +2 [Culture] to Infrastructure Improvements within 2 Tiles",
 			"Pillaging this improvement yields approximately [+25 Gold]",
 			"Tile provides yield without assigned population",
 			"Only available <after discovering [Nationalization]>",
@@ -615,7 +615,7 @@
 		"turnsToBuild": 12,
 		"uniques": [
 			"Enhancer Improvement",
-			"Grants +2 [Culture] to Infraestructure Improvements within 2 Tiles",
+			"Grants +2 [Culture] to Infrastructure Improvements within 2 Tiles",
 			"Pillaging this improvement yields approximately [+25 Gold]",
 			"Tile provides yield without assigned population",
 			"Only available <after discovering [Advertising]>",

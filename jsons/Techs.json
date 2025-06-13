@@ -5,7 +5,7 @@
 		"techCost": 780,
 		"techs": [
 			{
-				"name": "Infraestructure",
+				"name": "Infrastructure",
 				"row": 2,
 				"prerequisites": [
 					"Compass",
@@ -56,7 +56,7 @@
 				"name": "Fertilizer",
 				"row": 1,
 				"prerequisites": [
-					"Infraestructure"
+					"Infrastructure"
 				],
 				"quote": ""
 			},
@@ -64,7 +64,7 @@
 				"name": "Conservation",
 				"row": 2,
 				"prerequisites": [
-					"Infraestructure"
+					"Infrastructure"
 				],
 				"quote": ""
 			},
@@ -72,7 +72,7 @@
 				"name": "Economics",
 				"row": 3,
 				"prerequisites": [
-					"Infraestructure",
+					"Infrastructure",
 					"Printing Press"
 				],
 				"quote": ""

@@ -131,9 +131,9 @@ Buildings.json's comments were used to divide additions and modifications by era
 * Refining Breakthrough I
 * Refining Breakthrough II
 * Refining Breakthrough III
-* Infraestructure Breakthrough I
-* Infraestructure Breakthrough II
-* Infraestructure Breakthrough III
+* Infrastructure Breakthrough I
+* Infrastructure Breakthrough II
+* Infrastructure Breakthrough III
 * Implants Breakthrough I
 * Implants Breakthrough II
 * Implants Breakthrough III
@@ -168,7 +168,7 @@ TileImprovements.json's comments were used to divide improvements by eras and ca
 * Supply Route
 * Industry
 * Offshore Platform
-### "Infraestructure"
+### "Infrastructure"
 * Urban District
 * Industrial Zone
 * Commercial Center

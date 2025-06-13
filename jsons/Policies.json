@@ -22,7 +22,7 @@
                 "name": "Secularism",
                 "uniques": [
                     "[+1 Gold] from every [Trading post]",
-                    "[Trading post] are affected by [Institute] as if they were a Infraestructure Improvement"
+                    "[Trading post] are affected by [Institute] as if they were a Infrastructure Improvement"
                 ],
                 "row": 1,
                 "column": 2
