@@ -1272,7 +1272,7 @@
 			"Great Scientist": 1
 		},
 		"uniques": [
-			"Double quantity of [Power] produced",
+			"[+100]% [Power] resource production",
 			"[+5 Science] from every [Coal Plant]",
 			"[+5 Science] from every [Oil Plant]",
 			"[+5 Science] from every [Hydro Plant]",
@@ -1359,7 +1359,7 @@
 		"requiredTech": "World Alliance",
 		"uniques": [
 			"Triggers voting for the Diplomatic Victory",
-			"Hidden when [Diplomatic] Victory is disabled",
+			"Only available <when [Diplomatic] Victory is enabled>",
 			"Triggers a global alert upon completion"
 		],
 		"quote": ""
