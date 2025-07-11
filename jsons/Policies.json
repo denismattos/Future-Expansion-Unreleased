@@ -212,7 +212,7 @@
             {
                 "name": "Fascism",
                 "uniques": [
-                    "[50]% [Strategic] resource production",
+                    "[+50]% [Strategic] resource production",
                     "[Great General] Range increased by 1"
                 ],
                 "requires": [
@@ -469,7 +469,7 @@
             {
                 "name": "Nanotransports",
                 "uniques": [
-                    "[100]% [Strategic] resource production",
+                    "[+100]% [Strategic] resource production",
                     "[Great General] Range increased by 1"
                 ],
                 "requires": [
