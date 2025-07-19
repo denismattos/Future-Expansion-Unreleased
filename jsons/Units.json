@@ -1308,7 +1308,7 @@
 			"[+50]% Strength <when defending>",
 			"Invisible to non-adjacent units",
 			"Can move after attacking",
-			"May Paradrop up to [7] tiles from inside friendly territory",
+			"May Paradrop to [Land] tiles up to [7] tiles away <in [{Friendly} {Land}] tiles>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -1635,7 +1635,7 @@
 			"Future",
 			"[+100]% Strength <when attacking>",
 			"[+0]% Strength <when defending>",
-			"May Paradrop up to [10] tiles from inside friendly territory",
+			"May Paradrop to [Land] tiles up to [10] tiles away <in [{Friendly} {Land}] tiles>",
 			"Never appears as a Barbarian unit"
 		],
 		"promotions": [
@@ -1657,7 +1657,7 @@
 			"[+100]% Strength <when attacking>",
 			"[+0]% Strength <when defending>",
 			"Only available <after adopting [Cybernetics]>",
-			"May Paradrop up to [10] tiles from inside friendly territory",
+			"May Paradrop to [Land] tiles up to [10] tiles away <in [{Friendly} {Land}] tiles>",
 			"Never appears as a Barbarian unit",
 			"Will not be displayed in Civilopedia"
 		],
